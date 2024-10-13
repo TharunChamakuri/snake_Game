@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    padding : 0;
+    margin :0;
+}
+body {
+    background-image: url('box.svg');
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-size: cover;
+}
+.con-score {
+    display:block;
+    height:400px;
+    width:400px;
+}
+.score {
+    margin-left:150px;
+    font-size: 60px;
+    color:rgb(47, 74, 47);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.box {
+    margin-top:20px;
+    height:600px;
+    width:550px;
+    background-image: url("box.svg");
+    border:3px solid black;
+    display:grid;
+    grid-template-rows:repeat(20,1fr);
+    grid-template-columns:repeat(20,1fr);
+    background-size: cover;
+}
+.head {
+    background-color:green;
+    border:2px solid black;
+    border-radius: 45%;
+    height:25px;
+    width:25px;
+}
+.body {
+    background-color: rgb(22, 185, 22);
+    border:2px solid black;
+    border-radius: 45%;
+    height:25px;
+    width:25px;
+}
+.food {
+    background-color: red;
+    border:2px solid black;
+    height:25px;
+    width:25px;
+    border-radius: 55%;
+}
+.snakeimg img {
+    background-size: cover;
+    height:370px;
+    width:450px;
+}
+
